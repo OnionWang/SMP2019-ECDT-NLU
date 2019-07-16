@@ -1,0 +1,15 @@
+CUDA_VISIBLE_DEVICES=$1 python3 run_classifier.py \
+  --task_name NLU \
+  --train_data dataSet/train.json \
+  --bert_model baidu_ernie/pytorch_model.bin \
+  --config baidu_ernie/config.json \
+  --vocab baidu_ernie/vocab.txt \
+  --max_seq_length 32 \
+  --train_batch_size 8 \
+  --learning_rate 6e-5 \
+  --num_train_epochs 9.0 \
+  --output_dir result/ \
+  --result_file test_result.json \
+  --dic_dir dataSet/dic \
+  --overwrite_output_dir \
+  --do_train

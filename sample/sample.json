@@ -1,0 +1,199 @@
+[
+  {
+    "text": "请帮我打开uc",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+      "name": "uc"
+    }
+  },
+  {
+    "text": "链家地产打开QQ",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+      "name": "qq"
+    }
+  },
+  {
+    "text": "打开汽车之家",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+      "name": "汽车之家"
+    }
+  },
+  {
+    "text": "打开QQ通讯",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+      "name": "qq"
+    }
+  },
+  {
+    "text": "帮我打开人人",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+      "name": "人人"
+    }
+  },
+  {
+    "text": "开微信",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+      "name": "微信"
+    }
+  },
+  {
+    "text": "黎宇我要玩中国象棋",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+      "name": "中国象棋"
+    }
+  },
+  {
+    "text": "给我打开一下qq",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+      "name": "qq"
+    }
+  },
+  {
+    "text": "帮忙打开一下酷狗音乐播放音乐行不",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+      "name": "酷狗音乐"
+    }
+  },
+  {
+    "text": "百度浏览器打开",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+      "name": "百度浏览器"
+    }
+  },
+  {
+    "text": "搜索手机办公软件",
+    "domain": "app",
+    "intent": "QUERY",
+    "slots": {
+      "name": "办公软件"
+    }
+  },
+  {
+    "text": "凯立德",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+      "name": "凯立德"
+    }
+  },
+  {
+    "text": "打开相机这",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+      "name": "相机"
+    }
+  },
+  {
+    "text": "打开qq同步助手",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+      "name": "qq同步助手"
+    }
+  },
+  {
+    "text": "打开淘宝购物",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+      "name": "淘宝购物"
+    }
+  },
+  {
+    "text": "帮我找到微信",
+    "domain": "app",
+    "intent": "QUERY",
+    "slots": {
+      "name": "微信"
+    }
+  },
+  {
+    "text": "打开uc二哦",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+      "name": "uc"
+    }
+  },
+  {
+    "text": "开启qq",
+    "domain": "app",
+    "intent": "LAUNCH",
+    "slots": {
+      "name": "qq"
+    }
+  },
+  {
+    "text": "查询许昌到中山的汽车。",
+    "domain": "bus",
+    "intent": "QUERY",
+    "slots": {
+      "Dest": "中山",
+      "Src": "许昌"
+    }
+  },
+  {
+    "text": "无锡到阜阳怎么坐汽车？",
+    "domain": "bus",
+    "intent": "QUERY",
+    "slots": {
+      "Dest": "阜阳",
+      "Src": "无锡"
+    }
+  },
+  {
+    "text": "去深圳怎么坐车？",
+    "domain": "map",
+    "intent": "ROUTE",
+    "slots": {
+      "endLoc_city": "深圳"
+    }
+  },
+  {
+    "text": "南京到，黄山的汽车。",
+    "domain": "bus",
+    "intent": "QUERY",
+    "slots": {
+      "Dest": "黄山",
+      "Src": "南京"
+    }
+  },
+  {
+    "text": "从无锡市到西安市的汽车。",
+    "domain": "bus",
+    "intent": "QUERY",
+    "slots": {
+      "Dest": "西安市",
+      "Src": "无锡市"
+    }
+  },
+  {
+    "text": "在合肥怎么坐去南京的汽车",
+    "domain": "bus",
+    "intent": "QUERY",
+    "slots": {
+      "Dest": "南京",
+      "Src": "合肥"
+    }
+  }
+]
