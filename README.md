@@ -2,6 +2,7 @@ SMP2019 ECDT 中文人机对话技术测评 任务一 自然语言理解
 ===================================
 
 任务说明: http://conference.cipsc.org.cn/smp2019/evaluation.html
+
 LeaderBoard: https://adamszq.github.io/smp2019ecdt_task1/
 
 
@@ -38,7 +39,9 @@ Code Framework
 Enviroment
 ---------
 Python3.5
+
 pytorch1.0.0
+
 GPU(模型3G左右显存就够了)
 
 
@@ -52,6 +55,9 @@ bash run.sh 0 (0是你想使用的GPU编号)
 References:
 ---------
 [1] https://github.com/google-research/bert
+
 [2] https://github.com/PaddlePaddle/LARK/tree/develop/ERNIE
+
 [3] https://github.com/ymcui/Chinese-BERT-wwm
+
 [4] https://github.com/ArthurRizar/tensorflow_ernie
